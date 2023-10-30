@@ -1,0 +1,72 @@
+/* This file is for your main application css. */
+@import "./phoenix.css";
+
+/* Alerts and form errors */
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert p {
+  margin-bottom: 0;
+}
+.alert:empty {
+  display: none;
+}
+.invalid-feedback {
+  color: #a94442;
+  display: block;
+  margin: -1rem 0 2rem;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  color: #4951F5;
+  font-family:'Courier New', Courier, monospace;
+}
+p {
+  margin-bottom: 4px;
+}
+
+#chat{
+  height: 62vh;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+input {
+  border: 1px white solid; 
+  color: rgb(0, 0, 0); 
+  font-size: 20px; 
+  background-color: #222;
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+}
+
+ul{
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+}
+
+html * {
+  font-family:'Courier New', Courier, monospace;
+}

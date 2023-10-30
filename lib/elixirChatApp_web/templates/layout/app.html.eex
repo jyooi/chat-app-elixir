@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ElixirChatApp</title>
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+    <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+  </head>
+  <body>
+    <header style="background-color: transparent">
+      <section class="container">
+        <nav role="navigation">
+          <ul>
+
+          </ul>
+          <%= render "_user_menu.html", assigns %>
+        </nav>
+        <a href="/">
+          <img src="<%= Routes.static_path(@conn, "/images/educative.png") %>" alt="Educative Logo"/>
+        </a>
+      </section>
+<!--
+      <header>
+      <section class="container">
+          <img width="110" src="<%= Routes.static_path(@conn, "/images/educative.png") %>" alt="Phoenix Framework Logo"/>
+          <h1 style="font-family:verdana;padding-top: 15px;color:#000;vertical-align: bottom;">Group Chat Application using Elixir</h1>
+      </section>
+    </header>
+-->
+    </header>
+    <main role="main" class="container">
+      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+      <%= @inner_content %>
+    </main>
+  </body>
+</html>
