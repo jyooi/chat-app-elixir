@@ -17,7 +17,7 @@ config :elixirChatApp, ElixirChatApp.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :elixirChatApp, ElixirChatAppWeb.Endpoint,
-  http: [port: 4000],
+  http: [port: 8826],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
