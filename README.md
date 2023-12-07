@@ -1,4 +1,4 @@
-# ElixirChatApp
+# ELixir chat app
 
 To start your Phoenix server:
 
