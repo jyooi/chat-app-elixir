@@ -16,4 +16,3 @@ Now you can visit [`localhost:8826`](http://localhost:8826) from your browser.
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
-# elixir_chat_app
